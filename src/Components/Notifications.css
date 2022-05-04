@@ -12,6 +12,39 @@ html,body,#root{
     background-color: #E1D5D5;
     display: grid;
     grid-template-rows: .4fr 4fr;
-    padding: 10px;
+    padding: 65px;
+}
 
+.notifications-content{
+    display: grid;
+    align-content: space-around;
+}
+
+
+.users{
+    display:grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    background-color: #E3BFBF;
+    border-radius: 15px;
+}
+
+.notification-dp-image img{
+    height: 70px;
+    width: 80px;
+    padding: 13px 0px 0px 0px;
+}
+
+.user-name-para p{
+    color: black;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding: 21px;
+}
+
+.time p{
+    color:black;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 57px 0px 0px 0px;
 }

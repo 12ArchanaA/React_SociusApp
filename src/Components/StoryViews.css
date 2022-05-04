@@ -12,11 +12,12 @@ html,body,#root{
     display: grid;
     grid-template-rows: 1fr 5fr;
     background-color: #E1D5D5;
+    padding: 18px;
 }
 
 .upper-part{
     display: grid;
-    grid-template-columns: 7fr 1fr 1fr ;
+    grid-template-columns: 0.4fr 6fr 1fr;
     padding: 15px;
 }
 
@@ -31,13 +32,13 @@ html,body,#root{
 }
 
 .dp img{
-    height: 139px;
+    height: 86px;
     width: 149px;
 }
 
 .view-part-viewers{
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
 }
 
 .name{
