@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body,#root{
+    height: 100%;
+}
+
+.PersonalChat-container{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    background-color: #E1D5D5;
+}
+
+.user-container{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+/* .dp{ 
+    ---------->for white round-dp
+    border-radius: 50%;
+    background-color: white;
+    border: solid black 1px;
+    height: 80px;
+    width: 80px;
+    margin: auto; 
+} */
+
+.user-dp img{
+    height: 139px;
+    width: 149px;
+}
+
+.user-name p{
+    color: black;
+    font-size: xx-large;
+    text-align: initial;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+
+.chatting-container{
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+}
+
+.heading p{
+    color: black;
+    text-align: center;
+}
+
+.message-part{
+    background-color: #F5BAB8;
+    max-width: 600px;
+    border-radius: 20px;
+    border:solid #aa7e7d 1px;
+}
+
+.message-part p{
+    color: grey;
+}

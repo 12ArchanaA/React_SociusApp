@@ -1,0 +1,148 @@
+
+html,body,#root{
+  height: 100%;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  .form-container{
+    height: 600px;
+    margin: auto;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    
+    /* width: 100%; */
+    /* display: grid; */
+  }
+  
+  
+  .left-section{
+    
+    background-color: #C4C4C4;
+    padding: 10px;
+    display: grid;
+    place-items: center; 
+    
+  }
+  
+  .logo-design{
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    align-items: center;
+  
+  }
+  
+  .logo-image{
+    margin: auto;
+  
+  }
+  
+  .line{
+    height: 60px;
+    width: 0;
+    border-left: solid 2px black;
+  }
+  
+  .logo-para p{
+    margin: auto;
+    font-size: x-large;
+    font-weight: 700;
+    color: rgb(51, 49, 49);
+  }
+  
+  .right-section{
+    background-color: #F9FFFF;
+    place-items: center;
+    padding: 10px;
+    display: grid;
+  
+  }
+  .login-form{
+    width: 100%;
+    max-width: 400px;
+    display: grid;
+    text-align: center;
+    gap: 15px;
+  }
+  
+  .signUp-form{
+    width: 100%;
+    max-width: 400px;
+    display: grid;
+    text-align: center;
+    gap: 15px;
+  }
+  
+  .login-form input{
+    
+    padding: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 7px 7px 7px 7px;
+    border: none;
+  }
+  
+  .signUp-form input{
+    padding: 10px;
+    border-radius: 7px 7px 7px 7px;
+    border: solid #154144 0.1px;
+  }
+  
+  .login-form button{
+    padding: 10px;
+    cursor: pointer;
+    background-color: #000000;
+    width: 80px;
+    margin-left: 35%;
+    color: white;  
+    border-radius: 7px 7px 7px 7px;
+    border: solid #154144 0.1px;
+  }
+  
+  
+  .signUp-form button{
+    padding: 10px;
+    cursor: pointer;
+    background-color: #000000;
+    margin-left: 45%;
+    width: 80px;
+    color: white;
+    border-radius: 7px 7px 7px 7px; 
+    border: solid #123235 0.1px;
+  }
+  
+  .log-in-para,#white-heading{
+    color: #123235;
+    text-align: center;
+  }
+  
+  .sign-up-heading{
+    color: #123235;
+    text-align: left;
+    font-size: x-large;
+  }
+  
+  h2{
+    text-align: center;
+  } 
+  
+  .page-division{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  
+  }
+  .name-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  #dob, #email, #city, #state{
+    text-align: initial;
+  }
+  

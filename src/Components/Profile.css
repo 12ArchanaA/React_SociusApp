@@ -1,0 +1,113 @@
+html,body,#root{
+    height: 100%;
+}
+  
+*{
+    margin: 0;
+    box-sizing: border-box;   
+    /* padding: 5px; */
+}
+
+.profile-container{
+    margin: auto;
+    max-width: 900px;
+    height: 100%;
+    width: 100%;
+    background-color:#FFFFFF;
+    border: solid #000000 0.01px;
+    box-shadow: #000000;
+}
+
+.settings{
+    margin-left: 810px;
+    top: px;
+    /* right: 16px; */
+    position: absolute 
+}
+
+.settings-para {
+    color: #000000;
+    font-size: large;
+}
+
+
+.circle{
+    border: solid rgb(172, 168, 168) 1px;
+    background-color: white;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    padding: 17px;
+} 
+
+.user-image{
+    /* height: 90px;
+    width: 90px;  */
+    padding: 9px;
+    
+    
+}
+
+.camera-image{
+    height: 30px;
+    width: 30px;
+    margin-left: 70px;
+}
+
+
+.username-heading{
+    font-size: larger;
+    color: rgb(22, 22, 22);
+    padding: 2%;
+}
+
+.follow{
+    max-width: 200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2px 1fr;
+    
+}
+.followers p,.following p{
+    color: black;
+}
+
+
+.line{
+    height: 50px;
+    width: 0;
+    border-left: 2px solid black;
+}
+
+
+
+.footer-division{
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr .5fr .5fr;
+    background-color: #C4C4C4;
+    margin-top: 230px;
+    height: 18%;
+}
+
+.footer-icon{
+    margin-left: 58px;
+}
+
+.footer-para {
+    margin-right: 29px;
+    color: #000000;
+    font-size: small;
+    font-weight: bold;
+}
+
+
+.image-division{
+    display: grid;
+    grid-template-columns: .1fr .1fr .1fr;
+    gap: 70px;
+    padding-left: 170px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+

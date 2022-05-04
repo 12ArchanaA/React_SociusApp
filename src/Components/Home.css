@@ -1,0 +1,144 @@
+html,body,#root{
+    height: 100%;
+}
+  
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home-container{
+    display: grid;
+    grid-template-rows: auto 3fr auto;
+    height: 100%;
+    background-color:#FFFFFF;
+}
+
+.status-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+    background-color: #C4C4C4;
+    border: solid rgb(182, 174, 174) 0.01px;
+}
+
+.image-name-container{
+    display: grid;
+    grid-template-rows: .1fr .1fr;
+}
+
+.image-container{
+    /* height: 120px;
+    width: 120px; */
+}
+
+.dp-image{
+    margin-left: 65px;
+    height: 100px;
+    width: 100px;
+}
+
+.name-container{
+    color: #000000;
+    text-align: center;
+}
+
+.plus-image{
+    height: 40px;
+    width: 40px;
+    margin-left: 70px;
+}
+
+
+.middle-part{
+    display: grid;
+    grid-template-columns: 5fr 1px 2fr;
+}
+
+.post-part-content{
+    margin: auto;
+}
+
+.post-image{
+    margin: auto;
+    /* height: 262px;
+    width: 700px;*/
+    margin-top: 44px;
+    margin-left: 109px;
+    border-radius: 6%;
+}
+
+.lik-dis-comm{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* background-color:#C4C4C4; */
+    max-width: 190px;
+    padding: 2px;
+    gap: 20px;
+    margin-left: 140px;
+}
+
+.li-di-co-image{
+    margin-left: 10px;
+}
+
+.like-dislike-comment-para{
+    color: #000000;
+    text-align: center;
+}
+
+.post-below-part{
+    display: grid;
+    grid-template-rows: 1fr 0.1fr;
+}
+
+.like-dislike-comment-image{
+    height: 20px;
+    width: 20px;
+}
+
+
+.line-in-between{
+    height: 350px;
+    width: 0;
+    border-left: 1px solid #000000;
+    margin-top: 30px;
+}
+
+.online-part-content{
+    padding: 30px;
+}
+
+.online-heading{
+    color: #000000;
+    text-align: center;
+}
+
+.online-para{
+    color: #000000;
+    text-align: center;
+}
+
+.icon_division{
+    /* margin-bottom: 50px; */
+    background-color: #C4C4C4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* height: 95px; */
+}
+
+.icon{
+    display: grid;
+    grid-template-rows: .1fr .1fr;
+    margin-left: 50px;
+}
+
+.icon-para{
+    color: #000000;
+}
+
+.name-container p{
+    
+    color: #000000;
+}
+

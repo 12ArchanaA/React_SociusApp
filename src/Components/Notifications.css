@@ -1,0 +1,17 @@
+html,body,#root{
+    height: 100%;
+}
+  
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.notifications-container{
+    height: 100%;
+    background-color: #E1D5D5;
+    display: grid;
+    grid-template-rows: .4fr 4fr;
+    padding: 10px;
+
+}

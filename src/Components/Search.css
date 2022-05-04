@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body,#root{
+    height: 100%;
+}
+
+.search-container{
+    height: 100%;
+    background-color: #E1D5D5;
+    display: grid;
+    grid-template-rows: .8fr 5fr;
+}
+
+.search-section{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    /* padding: 20px; */
+}
+
+.search-bar{
+    padding: 10px;
+}
+
+.search-bar input{
+    height: 50px;
+    width: 400px;
+    border-radius: 16px;
+    border: none;
+    padding: 30px;
+}
+
+.back-button{
+    padding: 20px;
+}
+
+.back-button img{
+    height: 30px;
+    width: 30px;
+    
+}
+
+.chat-section{
+    display: grid;
+    grid-template-rows: .2fr 3fr;
+}
+
+.chat-heading{
+    color: black;
+    font-size: x-large;
+    text-align: left;
+    padding: 5px 35px 6px 35px;
+}
+
+
+.name p{
+    color: black;
+    text-align: initial;
+}
+
+
+.chat-content{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.chatting{
+    display: grid;
+    grid-template-columns: 1fr 4fr .8fr;
+    padding: 10px;
+}
+
+
+#close{
+    border: none;
+    background-color: #E1D5D5;
+    font-size: x-large;
+    text-align: center;
+    cursor: pointer;
+}
+
+.image-sec img{
+    height: 137px;
+    width: 149px;
+
+}

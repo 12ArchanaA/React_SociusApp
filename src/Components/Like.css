@@ -1,0 +1,40 @@
+html,body,#root{
+    height: 100%;
+}
+  
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.like-container{
+    height: 100%;
+    background-color: #E1D5D5;
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+}
+
+.like-part{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.like-image img{
+    height: 20px;
+    width: 20px;
+}
+
+.like-para p{
+    color: black;
+    font-size: x-large;
+}
+
+.liked-people{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.people{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}

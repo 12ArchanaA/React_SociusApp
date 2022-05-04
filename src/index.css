@@ -1,0 +1,110 @@
+
+html,body,#root{
+  height: 100%;
+
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+main{
+  margin: auto;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  max-width: 980px;
+  margin-top: 80px; 
+}
+
+.left-section{
+  
+  background-color: #006F76;
+  padding: 10px;
+  display: grid;
+  place-items: center; 
+  
+}
+.right-section{
+  background-color: #E5E5E5;
+  place-items: center;
+  padding: 10px;
+  display: grid;
+
+}
+.login-form{
+  width: 100%;
+  max-width: 400px;
+  display: grid;
+  text-align: center;
+  gap: 15px;
+}
+
+.signUp-form{
+  width: 100%;
+  max-width: 400px;
+  display: grid;
+  text-align: center;
+  gap: 15px;
+}
+
+.login-form input{
+  
+  padding: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 50px 50px;
+  border: solid black 0.1px;
+}
+
+.signUp-form input{
+  padding: 10px;
+  border-radius: 50px 50px;
+  border: solid #154144 0.1px;
+}
+
+.login-form button{
+  padding: 10px;
+  cursor: pointer;
+  background-color: #39949b;
+  width: 80px;
+  margin-left: 35%;
+  color: white;  
+  border-radius: 50px 50px;
+  border: solid #154144 0.1px;
+}
+
+
+.signUp-form button{
+  padding: 10px;
+  cursor: pointer;
+  background-color: #0e7d85;
+  margin-left: 45%;
+  width: 80px;
+  color: white;
+  border-radius: 50px 50px;  
+  border: solid #123235 0.1px;
+}
+
+p,#white-heading{
+  color: white;
+  text-align: center;
+}
+
+
+h2{
+  text-align: center;
+} 
+
+.page-division{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+
+}
+.name-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}

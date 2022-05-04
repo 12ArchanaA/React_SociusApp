@@ -1,0 +1,80 @@
+html,body,#root{
+    height: 100%;
+  }
+  
+  *{
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.container{
+    margin: auto;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    
+  }
+
+  .otp-left-section{
+  
+    background-color: #C4C4C4;
+    padding: 10px;
+    display: grid;
+    place-items: center; 
+    
+  }
+  .otp-right-section{
+    background-color: #fcf6f6;
+    place-items: center;
+    padding: 10px;
+    display: grid;
+  } 
+  .right-para{
+    color: #224346;
+    
+  }
+
+  .underline{
+    background-color: #C4C4C4;
+    border: none;
+    width: 50px;
+    border-bottom: solid 2px #000000;
+    text-align: center;
+  }
+
+  .message-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+  }
+  
+  .division{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 15px;
+  }
+
+  .left-para-left p,.left-para-right p{
+    color: #000000;
+  }
+
+  .image-section{
+    padding: 20px;
+  }
+
+  
+  .phone-image{
+    
+    height: 250px;
+    
+  }
+
+  .next-button{
+   margin: auto;
+    height: 60px;
+    width: 60px;
+    padding-top: 16px;
+    
+  }
+
+
