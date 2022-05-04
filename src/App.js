@@ -13,6 +13,8 @@ import StoryViews from "./Components/StoryViews"
 import Like from "./Components/Like";
 import Notifications from "./Components/Notifications";
 import Post from "./Components/Post";
+import Comments from "./Components/Comments";
+import Saved from "./Components/Saved";
 
 const App = () => {
     return(
@@ -29,6 +31,8 @@ const App = () => {
         <Route path="Like" element={<Like/>}/>
         <Route path="Notifications" element={<Notifications/>}/>
         <Route path="Post" element={<Post/>}/>
+        <Route path="Comments" element={<Comments/>}/>
+        <Route path="Saved" element={<Saved/>}/>
       </Routes>
     )
 }
