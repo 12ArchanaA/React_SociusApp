@@ -46,6 +46,7 @@ html,body,#root{
 .chatting-container{
     display: grid;
     grid-template-rows: 1fr 5fr 1fr;
+    padding: 15px;
 }
 
 .heading p{
@@ -55,7 +56,7 @@ html,body,#root{
 
 .message-part{
     background-color: #F5BAB8;
-    max-width: 600px;
+    /* max-width: 600px; */
     border-radius: 20px;
     border:solid #aa7e7d 1px;
 }

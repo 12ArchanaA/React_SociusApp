@@ -17,9 +17,16 @@ const PersonalChat = () => {
                 <div className="heading">
                     <p>Today</p>
                 </div>
+                
                 <div className="chatting-part">
-
+                    <div className="sender">
+                        
+                    </div>
+                    <div className="receiver">
+                        
+                    </div>
                 </div>
+
                 <div className="message-part">
                     <p>Your message</p>
                 </div>
